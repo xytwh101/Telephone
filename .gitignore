@@ -1,0 +1,4 @@
+bin
+gen
+bin/AndroidManifest.xml
+bin/R.txt
