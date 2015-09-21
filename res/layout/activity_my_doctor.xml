@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E4E4"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3399FF"
+        android:clickable="false"
+        android:gravity="center_horizontal"
+        android:text="@string/ability_main_myDoctor"
+        android:textColor="#414141"
+        android:textSize="22sp" />   
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"/>
+    
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+              <LinearLayout
+                    android:id="@+id/ll_myDoctor_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <Button
+                     android:id="@+id/btn_myDoctor_list"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="@string/myDoctor_doctorList" />
+                  
+                  
+              </LinearLayout>
+              <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"/>
+              <LinearLayout
+                    android:id="@+id/ll_myDoctor_medicalRemind"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <Button
+                     android:id="@+id/btn_myDoctor_medicalRemind"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="@string/myDoctor_medicalRemind" />
+                  
+                  
+              </LinearLayout>
+              <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"/>
+              <LinearLayout
+                    android:id="@+id/ll_myDoctor_careRemind"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <Button
+                     android:id="@+id/btn_myDoctor_careRemind"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="@string/myDoctor_careRemind" />
+                  
+                  
+              </LinearLayout>
+              <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"/>
+              <LinearLayout
+                    android:id="@+id/ll_myDoctor_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <Button
+                     android:id="@+id/btn_myDoctor_call"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="@string/myDoctor_call" />
+                  
+                  
+              </LinearLayout>
+              <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"/>
+              <LinearLayout
+                    android:id="@+id/ll_myDoctor_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <Button
+                     android:id="@+id/btn_myDoctor_setting"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="@string/myDoctor_setting" />
+                  
+                  
+              </LinearLayout>
+              <LinearLayout
+                    
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"/>
+                  
+                  
+              </LinearLayout>
+               <LinearLayout
+                    
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"/>
+                  
+                  
+              </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

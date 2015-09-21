@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E4E4"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3399FF"
+        android:clickable="false"
+        android:gravity="center_horizontal"
+        android:text="@string/myDoctor_doctorList"
+        android:textColor="#414141"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#E4E4E4">
+
+    	<LinearLayout
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_centerInParent="true"
+    		android:orientation="vertical" >
+    		<TextView
+		        
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:clickable="false"
+			    android:layout_gravity="center_horizontal"
+			    android:background="#E4E4E4"
+			    />
+		    <TextView
+		        android:id="@+id/audio_call_phone"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:clickable="false"
+			    android:gravity="center_horizontal"
+			    android:text="添加医生"
+			    android:background="#E4E4E4"
+			    android:textSize="26sp"/>
+		    <TextView
+		        
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:clickable="false"
+			    android:layout_gravity="center_horizontal"
+			    android:background="#E4E4E4"
+			    />
+	    </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#ffffff"
+    	android:id="@+id/ll_my_doctor_1st"
+    	android:orientation="vertical" >
+    	<RelativeLayout
+	        
+	    	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1">
+    		<RelativeLayout
+    		    android:id="@+id/rl_my_doctor_1st"
+		    	android:layout_width="100dip"
+	    		android:layout_height="wrap_content">
+	    		<ImageView
+	    		    android:id="@+id/iv_my_doctor_1st"
+			    	android:layout_width="100dip"
+			        android:layout_height="100dip"
+			        android:layout_centerInParent="true"
+			        android:background="@drawable/doctor"/>
+	    	</RelativeLayout>
+    		<LinearLayout
+		    	android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:gravity="center_vertical"
+		    	android:layout_toRightOf="@id/rl_my_doctor_1st"
+		    	android:orientation="vertical" >
+			    <TextView   
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:clickable="false"
+				    android:text="姓名：王医生"
+				    android:textColor="#42454c"
+				    android:textSize="18sp"/>
+		    	<TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:clickable="false"
+			        android:text="\n所在医院：人民医院\n\n所在科室：外科"
+			        android:textColor="#999999"
+			        android:textSize="14sp"/>	
+		    </LinearLayout>
+    	</RelativeLayout>
+        <TextView
+		        
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:clickable="false"
+			    android:layout_gravity="center_horizontal"
+			    android:background="#E4E4E4"
+			    />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#ffffff"
+    	android:id="@+id/ll_my_doctor_2nd"
+    	android:orientation="vertical" >
+    	
+    	<RelativeLayout
+	        android:id="@+id/audio_call_free"
+	    	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1">
+    		<RelativeLayout
+    		    android:id="@+id/rl_my_doctor_2nd"
+		    	android:layout_width="100dip"
+	    		android:layout_height="wrap_content">
+	    		<ImageView
+	    		    android:id="@+id/iv_my_doctor_2nd"
+			    	android:layout_width="100dip"
+			        android:layout_height="100dip"
+			        android:layout_centerInParent="true"
+			        android:background="@drawable/doctor"/>
+	    	</RelativeLayout>
+    		<LinearLayout
+		    	android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:gravity="center_vertical"
+		    	android:layout_toRightOf="@id/rl_my_doctor_2nd"
+		    	android:orientation="vertical" >
+			    <TextView   
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:clickable="false"
+				    android:text="姓名：王医生"
+				    android:textColor="#42454c"
+				    android:textSize="18sp"/>
+		    	<TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:clickable="false"
+			        android:text="\n所在医院：人民医院\n\n所在科室：外科"
+			        android:textColor="#999999"
+			        android:textSize="14sp"/>	
+		    </LinearLayout>
+    	</RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+</LinearLayout>

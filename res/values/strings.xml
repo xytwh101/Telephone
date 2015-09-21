@@ -12,6 +12,7 @@
 	<string name="login_client">OK,立即体验</string>
 	
 	<string name="ability_name">云之讯能力演示</string>
+	<string name="ability_main_name">医疗服务</string>
 	<string name="ability_audio">语音</string>
 	<string name="ability_im">IM</string>
 	<string name="ability_verification">验证码</string>
@@ -19,6 +20,27 @@
 	<string name="ability_conference">视频会议</string>
 	<string name="ability_groupchat">群聊</string>
 	
+	<string name="ability_main_adressBook">通讯录</string>
+	<string name="ability_main_videoPhone">视频通话</string>
+	<string name="ability_main_myPhone">亲情电话</string>
+	<string name="ability_main_urgencyPhone">应急电话</string>
+	<string name="ability_main_urgencyReport">应急汇报</string>
+	<string name="ability_main_myDoctor">我的医生</string>
+	<string name="ability_main_myRole">我的角色</string>
+	<string name="ability_main_paientRecord">病人档案</string>
+	<string name="ability_main_about">关于软件</string>
+	<string name="ability_main_setting">通用设置</string>
+	<string name="ability_main_restTime">作息时间</string>
+	<string name="ability_main_healthRecord">健康档案</string>
+	<string name="ability_main_GPS">导航</string>
+	<string name="ability_main_parentHealth">亲人健康</string>
+	
+	<string name="myDoctor_doctorList">我的医生列表</string>
+	<string name="myDoctor_medicalRemind">医疗提醒</string>
+	<string name="myDoctor_careRemind">保健计划提醒</string>
+	<string name="myDoctor_call">发起通话</string>
+	<string name="myDoctor_setting">设置</string>
+
 	<string name="mycenter">个人中心</string>
 	<string name="mycenter_admin">账户名称</string>
 	<string name="mycenter_name">当前身份</string>
