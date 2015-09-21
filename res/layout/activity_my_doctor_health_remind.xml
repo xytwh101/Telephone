@@ -10,10 +10,10 @@
         android:background="#3399FF"
         android:clickable="false"
         android:gravity="center_horizontal"
-        android:text="@string/myDoctor_careRemind"
+        android:text="@string/myDoctor_medicalRemind"
         android:textColor="#414141"
         android:textSize="22sp" />
-
+    
     <LinearLayout
         android:layout_width="match_parent"
   		android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             android:background="#E4E4E4"
             android:clickable="false"
             android:gravity="start"
-            android:text="\n日常护理\n"
+            android:text="\n医院体检\n"
             android:textSize="26sp" />
 	
     </LinearLayout>
@@ -45,7 +45,50 @@
 		        android:layout_height="wrap_content"
 		        android:background="#E4E4E4"
 		        android:clickable="false"
-		        android:text="\n  体温："
+		        android:text="\n\n\n  体温：\n\n\n"
+		        android:gravity="center_horizontal"
+		        android:textSize="26sp" />
+        
+        
+        <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:gravity="right"
+		    android:orientation="vertical" >
+
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="#E4E4E4"
+		        android:clickable="false"
+		        android:gravity="center_horizontal"
+		        android:text=""
+		        android:textSize="16sp" />
+
+            <CalendarView
+                android:id="@+id/cv_my_doctor_time"
+                android:layout_width="297dp"
+                android:layout_height="223dp" />
+		    
+		</LinearLayout>      
+    </LinearLayout>
+    <View 
+        android:layout_height="1px" 
+        android:background="#8B8B83" 
+        android:layout_width="fill_parent"/>
+    <LinearLayout
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_centerInParent="true"
+    		android:orientation="horizontal" >
+    
+        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="#E4E4E4"
+		        android:clickable="false"
+		        android:text="\n  血常规："
 		        android:gravity="center_horizontal"
 		        android:textSize="26sp" />
         
@@ -67,7 +110,7 @@
 		        android:textSize="16sp" />
 
 		    <Spinner
-		        android:id="@+id/sp_my_doctor_care_temperature"
+		        android:id="@+id/sp_my_doctor_care_blood"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_gravity="end"
@@ -90,162 +133,7 @@
 		        android:layout_height="wrap_content"
 		        android:background="#E4E4E4"
 		        android:clickable="false"
-		        android:text="\n  脉搏："
-		        android:gravity="center_horizontal"
-		        android:textSize="26sp" />
-        
-        
-        <LinearLayout
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    android:layout_centerInParent="true"
-		    android:gravity="right"
-		    android:orientation="vertical" >
-
-		    <TextView
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-		        android:background="#E4E4E4"
-		        android:clickable="false"
-		        android:gravity="center_horizontal"
-		        android:text=""
-		        android:textSize="16sp" />
-
-		    <Spinner
-		        android:id="@+id/sp_my_doctor_care_pulse"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:layout_gravity="end"
-		        />
-		</LinearLayout>
-        
-    </LinearLayout>
-    <View 
-        android:layout_height="1px" 
-        android:background="#8B8B83" 
-        android:layout_width="fill_parent"/>
-    <LinearLayout
-    		android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:layout_centerInParent="true"
-    		android:orientation="horizontal" >
-    
-        <TextView
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:background="#E4E4E4"
-		        android:clickable="false"
-		        android:text="\n  血压："
-		        android:gravity="center_horizontal"
-		        android:textSize="26sp" />
-        
-        
-        <LinearLayout
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    android:layout_centerInParent="true"
-		    android:gravity="right"
-		    android:orientation="vertical" >
-
-		    <TextView
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-		        android:background="#E4E4E4"
-		        android:clickable="false"
-		        android:gravity="center_horizontal"
-		        android:text=""
-		        android:textSize="16sp" />
-            <LinearLayout
-				    android:layout_width="fill_parent"
-		    		android:layout_height="wrap_content"
-		    		android:layout_centerInParent="true"
-		    		android:orientation="horizontal" >
-            <LinearLayout
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:orientation="vertical" >
-		    <Spinner
-		        android:id="@+id/sp_my_doctor_care_low"
-		        android:layout_width="173dp"
-		        android:layout_height="wrap_content"
-		        android:layout_gravity="end" />
-            </LinearLayout>
-            <LinearLayout
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:orientation="vertical" >
-		    <Spinner
-		        android:id="@+id/sp_my_doctor_care_high"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:layout_gravity="end"/>
-		    </LinearLayout>
-		    </LinearLayout>
-		</LinearLayout>
-        
-    </LinearLayout>
-    <View 
-        android:layout_height="1px" 
-        android:background="#8B8B83" 
-        android:layout_width="fill_parent"/>
-    <LinearLayout
-    		android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:layout_centerInParent="true"
-    		android:orientation="horizontal" >
-    
-        <TextView
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:background="#E4E4E4"
-		        android:clickable="false"
-		        android:text="\n\n  时间："
-		        android:gravity="center_horizontal"
-		        android:textSize="26sp" />
-        
-        
-        <LinearLayout
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    android:layout_centerInParent="true"
-		    android:gravity="center"
-		    android:orientation="vertical" >
-
-		    <TextView
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-		        android:background="#E4E4E4"
-		        android:clickable="false"
-		        android:gravity="center_horizontal"
-		        android:text=""
-		        android:textSize="16sp" />
-
-		     <TimePicker
-            android:id="@+id/tp_my_doctor_care_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-		        
-		</LinearLayout>
-
-       
-        
-    </LinearLayout>
-    <View 
-        android:layout_height="1px" 
-        android:background="#8B8B83" 
-        android:layout_width="fill_parent"/>
-    <LinearLayout
-    		android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:layout_centerInParent="true"
-    		android:orientation="horizontal" >
-    
-        <TextView
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:background="#E4E4E4"
-		        android:clickable="false"
-		        android:text="\n  设置保健提醒："
+		        android:text="\n  设置医疗提醒："
 		        android:gravity="center_horizontal"
 		        android:textSize="26sp" />
         
@@ -267,7 +155,7 @@
 		        android:textSize="26sp" />
 
 		    <Switch
-               android:id="@+id/sw_my_doctor_care_clock"
+               android:id="@+id/sw_my_doctor_medical_clock"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                 />
@@ -281,8 +169,8 @@
     <LinearLayout
     		android:layout_width="match_parent"
     		android:layout_height="wrap_content"
-    		android:id="@+id/ll_my_doctor_health_plan"
     		android:layout_centerInParent="true"
+    		android:id="@+id/ll_my_doctor_check_plan"
     		android:orientation="vertical" >
     
         <TextView
@@ -290,7 +178,7 @@
 		        android:layout_height="wrap_content"
 		        android:background="#E4E4E4"
 		        android:clickable="false"
-		        android:text="\n+添加更多保健计划"
+		        android:text="\n+添加体检计划"
 		        android:layout_gravity="center"
 		        android:textSize="26sp" />
 
@@ -299,4 +187,6 @@
         android:layout_height="1px" 
         android:background="#8B8B83" 
         android:layout_width="fill_parent"/>
+    
+
 </LinearLayout>
