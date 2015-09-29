@@ -71,6 +71,7 @@
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_gravity="end"
+		        android:entries="@array/temperature"
 		        />
 		</LinearLayout>
         
@@ -116,6 +117,7 @@
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_gravity="end"
+		        android:entries="@array/pulse"
 		        />
 		</LinearLayout>
         
@@ -160,25 +162,29 @@
 		    		android:layout_height="wrap_content"
 		    		android:layout_centerInParent="true"
 		    		android:orientation="horizontal" >
+
             <LinearLayout
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:orientation="vertical" >
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
 		    <Spinner
 		        android:id="@+id/sp_my_doctor_care_low"
-		        android:layout_width="173dp"
+		        android:layout_width="198dp"
 		        android:layout_height="wrap_content"
-		        android:layout_gravity="end" />
+		        android:entries="@array/blood_pressure" />
+
             </LinearLayout>
             <LinearLayout
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
 		    android:orientation="vertical" >
 		    <Spinner
 		        android:id="@+id/sp_my_doctor_care_high"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:layout_gravity="end"/>
+		        android:layout_gravity="end"
+		        android:entries="@array/blood_pressure"/>
 		    </LinearLayout>
 		    </LinearLayout>
 		</LinearLayout>

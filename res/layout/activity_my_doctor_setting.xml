@@ -61,6 +61,7 @@
 		        android:id="@+id/sp_my_doctor"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
+		        android:entries="@array/time"
 		        />
 		</LinearLayout>
         
@@ -69,28 +70,28 @@
         android:layout_height="1px" 
         android:background="#8B8B83" 
         android:layout_width="fill_parent"/>
-    <LinearLayout
-    		android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:layout_centerInParent="true"
-    		android:orientation="horizontal" >
-		
-        
-        <TextView
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:background="#E4E4E4"
-		        android:clickable="false"
-		        android:text="\n\n\n每周通话频率：\n\n\n"
-		        android:gravity="center_horizontal"
-		        android:textSize="26sp" />
 
-	    <CalendarView
-	        android:id="@+id/cv_my_doctor"
-	        android:layout_width="match_parent"
-	        android:layout_height="match_parent" />
-        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E4E4E4"
+            android:clickable="false"
+            android:gravity="center_horizontal"
+            android:text="\n\n\n每周通话频率：\n\n\n"
+            android:textSize="26sp" />
+
+        <CalendarView
+                android:id="@+id/cv_my_doctor"
+                android:layout_width="297dp"
+                android:layout_height="223dp" />
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

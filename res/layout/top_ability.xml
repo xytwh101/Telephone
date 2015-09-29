@@ -3,13 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="50dip"
     android:background="#ffffff"
+    android:onClick="remote"
     android:orientation="horizontal">
     
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#3399FF"
-        android:clickable="false"
+        
         android:gravity="center_horizontal"
         android:text="@string/ability_main_name"
         android:textColor="#414141"

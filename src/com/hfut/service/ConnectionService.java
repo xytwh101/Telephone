@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import com.hfut.telephone.AudioConverseActivity;
+import com.hfut.telephone.VideoConverseActivity;
 import com.reason.UcsReason;
 import com.yzx.api.CallType;
 import com.yzx.api.UCSCall;
@@ -432,16 +434,16 @@ public class ConnectionService extends Service implements ConnectionListener,Cal
 	 */
 	@Override
 	public void onIncomingCall(String callId, String callType, String callerNumber ,String nickName, String userdata) {
-		CustomLog.v("收到新的来电 callType="+callType);
+		CustomLog.e("收到新的来电 callType="+callType);
 		CustomLog.v("收到新的来电信息："+userdata);
 		Intent intent = new Intent();
 		if(callType.equals("0")){
-//			intent.setClass(ConnectionService.this,AudioConverseActivity.class);
+			intent.setClass(ConnectionService.this,AudioConverseActivity.class);
 		}else if(callType.equals("2")){
 			//会议
 		}else{
 			//视频电话
-//			intent.setClass(ConnectionService.this,VideoConverseActivity.class);
+			intent.setClass(ConnectionService.this,VideoConverseActivity.class);
 		}
 		intent.putExtra("phoneNumber", callerNumber).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		intent.putExtra("inCall", true);

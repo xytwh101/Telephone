@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="30dip"
+    	android:background="#3399FF">
+	    <RelativeLayout 
+	        android:id="@+id/rl_mycenter"
+	        android:layout_width="50dip"
+	    	android:layout_height="50dip">
+		    <ImageButton
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:clickable="false"
+		        android:focusable="false"
+		        android:layout_centerVertical="true"
+		        android:background="@drawable/common_back"/>
+	    </RelativeLayout>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_toRightOf="@id/rl_mycenter"
+	        android:clickable="false"
+	        android:text="通用设置"
+	        android:textSize="24sp"
+	        android:textColor="#414141"
+	        android:gravity="center_vertical"/>
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#67b83d"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="#e5e5e5" >
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="30dip"
+		    android:layout_centerInParent="true"
+		    android:background="#ffffff">  
+		   <TextView
+		       
+		       android:layout_width="wrap_content"
+		       android:layout_height="match_parent"
+		       android:layout_alignParentLeft="true"
+		       android:layout_alignParentTop="true"
+		       android:layout_marginLeft="14dp"
+		       android:clickable="false"
+		       android:gravity="center_vertical"
+		       android:text="启用屏幕保护"
+		       android:textColor="#282828"
+		       android:textSize="20sp" />
+		   <ImageButton
+		        android:id="@+id/tv1"
+		    	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:clickable="false"
+		        android:focusable="false"
+		        android:layout_centerVertical="true"
+		        />
+	    </RelativeLayout>  
+	</RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dip"
+        android:clickable="false"
+        android:text="常规设置"
+        android:textColor="#989898"
+        android:textSize="16sp" />
+    	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+		android:layout_height="40dip"
+		android:background="#ffffff">
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="14dp"
+		        android:clickable="false"
+		        android:gravity="center_vertical"
+		        android:text="关闭系统锁屏"
+		        android:textColor="#282828"
+		        android:textSize="20sp" />
+	 </RelativeLayout>
+	 
+	 <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        
+		        android:background="#e5e5e5" />	    
+	 <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="40dip"
+		    android:background="#ffffff">
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginLeft="14dp"
+			    android:clickable="false"
+			    android:gravity="center_vertical"
+			    android:text="解锁界面设置"
+			    android:textColor="#282828"
+			    android:textSize="20sp" />
+	 </RelativeLayout>
+	 
+	 <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        
+		        android:background="#e5e5e5" />
+	 <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="40dip"
+		    android:background="#ffffff">
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginLeft="14dp"
+			    android:clickable="false"
+			    android:gravity="center_vertical"
+			    android:text="消息设置"
+			    android:textColor="#282828"
+			    android:textSize="20sp" />
+	 </RelativeLayout>
+	 
+	 <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        
+		        android:background="#e5e5e5" />
+	 <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="40dip"
+		    android:background="#ffffff">
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginLeft="14dp"
+			    android:clickable="false"
+			    android:gravity="center_vertical"
+			    android:text="声音设置"
+			    android:textColor="#282828"
+			    android:textSize="20sp" />
+	 </RelativeLayout>
+	 
+	 <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="20dip"
+	    android:layout_centerHorizontal="true"
+	    android:clickable="false"
+	    android:text="个人设置"
+	    android:textColor="#989898"
+	    android:textSize="16sp" />
+    	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+		android:layout_height="40dip"
+		android:background="#ffffff">
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="14dp"
+		        android:clickable="false"
+		        android:gravity="center_vertical"
+		        android:text="下载设置"
+		        android:textColor="#282828"
+		        android:textSize="20sp" />
+	 </RelativeLayout>
+	 
+	 <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		       
+		        android:background="#e5e5e5" />	    
+	 <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="40dip"
+		    android:background="#ffffff">
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginLeft="14dp"
+			    android:clickable="false"
+			    android:gravity="center_vertical"
+			    android:text="隐私设置"
+			    android:textColor="#282828"
+			    android:textSize="20sp" />
+	 </RelativeLayout>
+	 
+	 <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		       
+		        android:background="#e5e5e5" />
+	 <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="40dip"
+		    android:background="#ffffff">
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginLeft="14dp"
+			    android:clickable="false"
+			    android:gravity="center_vertical"
+			    android:text="权限管理"
+			    android:textColor="#282828"
+			    android:textSize="20sp" />
+	 </RelativeLayout>
+	 
+	 <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        
+		        android:background="#e5e5e5" />
+	 <RelativeLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="40dip"
+		    android:background="#ffffff">
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginLeft="14dp"
+			    android:clickable="false"
+			    android:gravity="center_vertical"
+			    android:text="帮助中心"
+			    android:textColor="#282828"
+			    android:textSize="20sp" />
+	 </RelativeLayout>
+</LinearLayout>

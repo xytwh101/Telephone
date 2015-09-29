@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:orientation="vertical">
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="2dip"
+	        android:background="#67b83d"/>
+	    <RelativeLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="120dip">
+
+	    	<ImageView
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_alignParentBottom="true"
+	    	    android:layout_centerHorizontal="true"
+	    	    android:clickable="false" />
+	    	    <!-- android:background="@drawable/about_soft_icon" -->
+	    	    
+
+		</RelativeLayout>
+		
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="240dip"
+		    android:orientation="vertical" >
+
+		    <RelativeLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="46dp"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:gravity="center_vertical" >
+
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerInParent="true"
+		            android:clickable="false"
+		            android:gravity="center_vertical"
+		            android:text="医疗服务"
+		            android:textColor="#282828"
+		            android:textSize="20sp" />
+		    </RelativeLayout>
+
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:background="#e5e5e5" />
+
+		    <RelativeLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="41dp"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:layout_weight="3.60"
+		        android:gravity="center_vertical" >
+
+		        <TextView
+		            android:id="@+id/id_soft_version"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="false"
+		            android:gravity="center_vertical"
+		            android:text="版本更新"
+		            android:textColor="#282828"
+		            android:textSize="20sp" />
+
+		        <TextView
+		            android:id="@+id/id_product_presentation"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:clickable="false"
+		            android:gravity="center_vertical"
+		            android:text="V1.00"
+		            android:textColor="#989898"
+		            android:textSize="18sp" />
+		    </RelativeLayout>
+
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:background="#e5e5e5" />
+
+		    <RelativeLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="36dp"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:layout_weight="3.90"
+		        android:gravity="center_vertical" >
+
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="false"
+		            android:gravity="center_vertical"
+		            android:text="产品介绍"
+		            android:textColor="#282828"
+		            android:textSize="20sp" />
+		    </RelativeLayout>
+
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:background="#e5e5e5" />
+
+		    <RelativeLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="38dp"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:layout_weight="3.26"
+		        android:gravity="center_vertical" >
+
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="false"
+		            android:gravity="center_vertical"
+		            android:text="使用帮助"
+		            android:textColor="#282828"
+		            android:textSize="20sp" />
+		    </RelativeLayout>
+
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dip"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:background="#e5e5e5" />
+
+		    <RelativeLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="44dp"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:gravity="center_vertical" >
+
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="false"
+		            android:gravity="center_vertical"
+		            android:text="反馈"
+		            android:textColor="#282828"
+		            android:textSize="20sp" />
+		    </RelativeLayout>
+		</LinearLayout>
+
+    </LinearLayout>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="30dp"
+	    android:clickable="false"
+	    android:text="版本信息"
+	    android:textColor="#989898"
+	    android:textSize="18sp" />
+
+</RelativeLayout>

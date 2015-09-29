@@ -6,6 +6,7 @@
     
     <include
         android:id="@+id/top_bar"
+        android:onClick="remote"
         layout="@layout/top_ability" />
     <LinearLayout
             android:layout_width="match_parent"
@@ -54,6 +55,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="videoPhone"
                     android:orientation="vertical" >
 
                     <ImageView
@@ -87,6 +89,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="myPhone"
                     android:orientation="vertical" >
 
                     <ImageView
@@ -119,6 +122,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="urgencyPhone"
                     android:orientation="vertical" >
 
                     <ImageView
@@ -183,6 +187,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:onClick="myDoctor"
                     android:gravity="center"
                     android:orientation="vertical" >
 
@@ -249,6 +254,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="healthRecord"
                     android:orientation="vertical" >
 
                     <ImageView
@@ -282,6 +288,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="myRole"
                     android:orientation="vertical" >
 
                     <ImageView
@@ -313,6 +320,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:onClick="setting"
                     android:gravity="center"
                     android:orientation="vertical" >
 
@@ -347,6 +355,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="about"
                     android:orientation="vertical" >
 
                     <ImageView

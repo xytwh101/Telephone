@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hfut.ui.BottomPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF3F3F3"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_alignParentBottom="true" >
+
+    <com.hfut.ui.ImageText
+        android:id="@+id/index_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <com.hfut.ui.ImageText
+        android:id="@+id/model_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/index_btn" />
+
+    <com.hfut.ui.ImageText
+        android:id="@+id/find_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/model_btn" />
+
+    <com.hfut.ui.ImageText
+        android:id="@+id/me_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+</com.hfut.ui.BottomPanelLayout>
