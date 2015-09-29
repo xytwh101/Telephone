@@ -114,7 +114,11 @@
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_gravity="end"
+<<<<<<< HEAD
 		        android:entries="@array/blood_routine"/>
+=======
+		        />
+>>>>>>> 00923301cf7fa22eb4993857eeb0530e66dffba2
 		</LinearLayout>
         
     </LinearLayout>

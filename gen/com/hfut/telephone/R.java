@@ -217,6 +217,7 @@ public final class R {
         public static final int white_back=0x7f0200b5;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int action_settings=0x7f0a006e;
         public static final int audio_call_answer=0x7f0a0009;
         public static final int audio_call_endcall=0x7f0a000b;
@@ -352,6 +353,107 @@ public final class R {
         public static final int model_content=0x7f030013;
         public static final int numpad=0x7f030014;
         public static final int top_ability=0x7f030015;
+=======
+        public static final int action_settings=0x7f090056;
+        public static final int audio_call_answer=0x7f090007;
+        public static final int audio_call_endcall=0x7f090009;
+        public static final int audio_call_free=0x7f090041;
+        public static final int audio_call_hangup=0x7f090008;
+        public static final int audio_call_phone=0x7f09003c;
+        public static final int audio_call_rl=0x7f090006;
+        public static final int btn_call=0x7f090048;
+        public static final int btn_derect=0x7f090049;
+        public static final int btn_myDoctor_call=0x7f09002e;
+        public static final int btn_myDoctor_careRemind=0x7f09002c;
+        public static final int btn_myDoctor_list=0x7f090028;
+        public static final int btn_myDoctor_medicalRemind=0x7f09002a;
+        public static final int btn_myDoctor_setting=0x7f090030;
+        public static final int converse_call_dial=0x7f090004;
+        public static final int converse_call_mute=0x7f090003;
+        public static final int converse_call_speaker=0x7f090005;
+        public static final int converse_client=0x7f090001;
+        public static final int converse_information=0x7f090002;
+        public static final int converse_main=0x7f090000;
+        public static final int cv_my_doctor=0x7f090045;
+        public static final int cv_my_doctor_time=0x7f090038;
+        public static final int dial_close=0x7f09000d;
+        public static final int dial_endcall=0x7f09000c;
+        public static final int digit0=0x7f090054;
+        public static final int digit1=0x7f09004a;
+        public static final int digit2=0x7f09004b;
+        public static final int digit3=0x7f09004c;
+        public static final int digit4=0x7f09004d;
+        public static final int digit5=0x7f09004e;
+        public static final int digit6=0x7f09004f;
+        public static final int digit7=0x7f090050;
+        public static final int digit8=0x7f090051;
+        public static final int digit9=0x7f090052;
+        public static final int digit_husa=0x7f090055;
+        public static final int digit_star=0x7f090053;
+        public static final int iv_main_all_GPS=0x7f090026;
+        public static final int iv_main_all_about=0x7f090024;
+        public static final int iv_main_all_adressBook=0x7f090010;
+        public static final int iv_main_all_healthRecord=0x7f09001e;
+        public static final int iv_main_all_myDoctor=0x7f09001a;
+        public static final int iv_main_all_myPhone=0x7f090014;
+        public static final int iv_main_all_myRole=0x7f090020;
+        public static final int iv_main_all_restTime=0x7f09001c;
+        public static final int iv_main_all_setting=0x7f090022;
+        public static final int iv_main_all_urgencyPhone=0x7f090016;
+        public static final int iv_main_all_urgencyReport=0x7f090018;
+        public static final int iv_main_all_videoPhone=0x7f090012;
+        public static final int iv_my_doctor_1st=0x7f09003f;
+        public static final int iv_my_doctor_2nd=0x7f090043;
+        public static final int key_layout=0x7f09000a;
+        public static final int ll_main_all_GPS=0x7f090025;
+        public static final int ll_main_all_about=0x7f090023;
+        public static final int ll_main_all_adressBook=0x7f09000f;
+        public static final int ll_main_all_healthRecord=0x7f09001d;
+        public static final int ll_main_all_myDoctor=0x7f090019;
+        public static final int ll_main_all_myPhone=0x7f090013;
+        public static final int ll_main_all_myRole=0x7f09001f;
+        public static final int ll_main_all_restTime=0x7f09001b;
+        public static final int ll_main_all_setting=0x7f090021;
+        public static final int ll_main_all_urgencyPhone=0x7f090015;
+        public static final int ll_main_all_urgencyReport=0x7f090017;
+        public static final int ll_main_all_videoPhone=0x7f090011;
+        public static final int ll_myDoctor_call=0x7f09002d;
+        public static final int ll_myDoctor_careRemind=0x7f09002b;
+        public static final int ll_myDoctor_list=0x7f090027;
+        public static final int ll_myDoctor_medicalRemind=0x7f090029;
+        public static final int ll_myDoctor_setting=0x7f09002f;
+        public static final int ll_my_doctor_1st=0x7f09003d;
+        public static final int ll_my_doctor_2nd=0x7f090040;
+        public static final int ll_my_doctor_check_plan=0x7f09003b;
+        public static final int ll_my_doctor_health_plan=0x7f090037;
+        public static final int rl_my_doctor_1st=0x7f09003e;
+        public static final int rl_my_doctor_2nd=0x7f090042;
+        public static final int sp_my_doctor=0x7f090044;
+        public static final int sp_my_doctor_care_blood=0x7f090039;
+        public static final int sp_my_doctor_care_high=0x7f090034;
+        public static final int sp_my_doctor_care_low=0x7f090033;
+        public static final int sp_my_doctor_care_pulse=0x7f090032;
+        public static final int sp_my_doctor_care_temperature=0x7f090031;
+        public static final int sw_my_doctor_care_clock=0x7f090036;
+        public static final int sw_my_doctor_medical_clock=0x7f09003a;
+        public static final int switch1=0x7f090046;
+        public static final int textView1=0x7f090047;
+        public static final int text_dtmf_number=0x7f09000b;
+        public static final int top_bar=0x7f09000e;
+        public static final int tp_my_doctor_care_time=0x7f090035;
+    }
+    public static final class layout {
+        public static final int activity_audio_converse=0x7f030000;
+        public static final int activity_main_all=0x7f030001;
+        public static final int activity_my_doctor=0x7f030002;
+        public static final int activity_my_doctor_care_remind=0x7f030003;
+        public static final int activity_my_doctor_health_remind=0x7f030004;
+        public static final int activity_my_doctor_list=0x7f030005;
+        public static final int activity_my_doctor_setting=0x7f030006;
+        public static final int activity_telephone=0x7f030007;
+        public static final int numpad=0x7f030008;
+        public static final int top_ability=0x7f030009;
+>>>>>>> 00923301cf7fa22eb4993857eeb0530e66dffba2
     }
     public static final class menu {
         public static final int telephone=0x7f090000;
