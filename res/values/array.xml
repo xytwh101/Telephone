@@ -6,6 +6,7 @@
     <item>父亲</item>  
     <item>母亲</item>
     <item>医生</item>  
+    <item>默认</item>
     </string-array>
     
     <string-array name="blood_routine">

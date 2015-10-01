@@ -19,6 +19,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
+                android:onClick="back"
                 android:background="@drawable/common_back"
                 android:clickable="false"
                 android:focusable="false" />
@@ -83,7 +84,7 @@
                   android:textColor="#282828"
                   android:textSize="24sp" />
               <Spinner
-                  android:id="@+id/spinner2"
+                  android:id="@+id/spinner_myrole"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:layout_alignParentRight="true"

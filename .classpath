@@ -5,5 +5,7 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/audio/yunzhixun_audio_SDK_ver_1.2.4.0_release.jar"/>
+	<classpathentry kind="lib" path="libs/yunzhixun_video_SDK_ver_1.2.5.1_release.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

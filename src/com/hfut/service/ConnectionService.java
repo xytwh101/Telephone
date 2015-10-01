@@ -176,6 +176,7 @@ public class ConnectionService extends Service implements ConnectionListener,Cal
 				case 3:
 					UCSCall.dial(ConnectionService.this,CallType.VIDEO, uid);
 					break;
+					
 				case 5:
 					UCSCall.dial(ConnectionService.this, CallType.CALL_AUTO, phone);
 					break;

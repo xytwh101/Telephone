@@ -26,11 +26,27 @@ public class MainActivity extends Activity {
 		startService(new Intent(this, ConnectionService.class));
 		SharedPreferences preferences = getSharedPreferences("Role", MODE_PRIVATE);
     	String role=preferences.getString("role", "1");
+    	Log.e("½ÇÉ«", role);
 	    int a=Integer.valueOf(role);
 	    if(a==1){
-	    	setContentView(R.layout.activity_main_all);
-            	    	
+	    	setContentView(R.layout.activity_main_all);           	    	
 	    }
+	    if(a==2){
+	    	setContentView(R.layout.activity_main_all);           	    	
+	    }
+	    if(a==3){
+	    	setContentView(R.layout.activity_main_all);     	    	
+	    }
+	    if(a==4){
+	    	setContentView(R.layout.activity_main_all);   	    	
+	    }
+	    if(a==5){
+	    	setContentView(R.layout.activity_main_all); 
+	    }
+	    if(a==6){
+	    	setContentView(R.layout.activity_main_all);
+	    }
+	    
 	    
 	    Intent intent = new Intent(UIDfineAction.ACTION_LOGIN);
 		intent.putExtra("sid", sid);
