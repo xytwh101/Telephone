@@ -95,7 +95,8 @@ public class MainActivity extends Activity {
 	}
 	//紧急汇报
 	public void urgencyReport(View view){
-		
+		Intent intent = new Intent(MainActivity.this, CallMainActivity.class);
+		startActivity(intent);
 	}
 	//我的医生
 	public void myDoctor(View view){

@@ -74,7 +74,9 @@
         <activity
             android:name="com.hfut.telephone.HealthRecordActivity">
         </activity>
-        
+        <activity
+            android:name="com.hfut.telephone.CallMainActivity">
+        </activity>
         <service
             android:name="com.hfut.service.ConnectionService">
         </service>

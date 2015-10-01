@@ -10,6 +10,7 @@
 	<string name="login_register">注册</string>
 	<string name="login_select">请选择体验账号</string>
 	<string name="login_client">OK,立即体验</string>
+	<string name="tips">长按下方按钮添加需要一键拨号的联系人（支持手动输入和从通讯录选择导入）</string>
 	
 	<string name="ability_name">云之讯能力演示</string>
 	<string name="ability_main_name">医疗服务</string>
