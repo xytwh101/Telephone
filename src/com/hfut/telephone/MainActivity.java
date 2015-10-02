@@ -83,7 +83,7 @@ public class MainActivity extends Activity {
 		
 	}
 	//ͨѶ¼
-	public void adressBook(View view){
+	public void addressBook(View view){
 		Intent intent = new Intent(MainActivity.this, AddressBookActivity.class); 
 		startActivity(intent);
 	}
