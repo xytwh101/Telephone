@@ -84,7 +84,8 @@ public class MainActivity extends Activity {
 	}
 	//通讯录
 	public void adressBook(View view){
-			
+		Intent intent = new Intent(MainActivity.this, AddressBookActivity.class); 
+		startActivity(intent);
 	}
 	//紧急电话
 	public void urgencyPhone(View view){

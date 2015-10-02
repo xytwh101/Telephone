@@ -66,7 +66,7 @@
         
         <receiver android:name="com.hfut.deskclock.AlarmReceiver">
             <intent-filter>
-                <action android:name="com.cn.daming.deskclock.ALARM_ALERT" />
+                <action android:name="com.hfut.deskclock.ALARM_ALERT" />
                 <action android:name="alarm_killed" />
                 <action android:name="cancel_snooze" />
             </intent-filter> 
@@ -93,7 +93,7 @@
                 android:description="@string/alarm_klaxon_service_desc"
                 >
             <intent-filter>
-                <action android:name="com.cn.daming.deskclock.ALARM_ALERT" />
+                <action android:name="com.hfut.deskclock.ALARM_ALERT" />
             </intent-filter>
         </service>
        
@@ -140,6 +140,9 @@
         </activity>
         <activity
             android:name="com.hfut.telephone.MyDoctorMedicalRemindActivity">
+        </activity>
+        <activity
+            android:name="com.hfut.telephone.AddressBookActivity">
         </activity>
         <activity
             android:name="com.hfut.telephone.MyDoctorSettingActivity">

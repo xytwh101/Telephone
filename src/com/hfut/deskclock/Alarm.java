@@ -79,7 +79,7 @@ public final class Alarm implements Parcelable {
          * The content:// 为这个表定义一个共享的Url
          */
         public static final Uri CONTENT_URI =
-                Uri.parse("content://com.cn.daming.deskclock/alarm");
+                Uri.parse("content://com.hfut.deskclock/alarm");
 
         /**
          * Hour in 24-hour localtime 0 - 23.
