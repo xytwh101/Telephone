@@ -151,6 +151,8 @@
         <activity
             android:name="com.hfut.telephone.CallMainActivity">
         </activity>
+       
+       
         <service
             android:name="com.hfut.service.ConnectionService">
         </service>
@@ -158,11 +160,11 @@
             android:name="com.yzx.service.ConnectionControllerService">
         </service>
 
-        <receiver android:name="com.yzx.service.AlarmReceiver" >
-        </receiver>
+       
         <receiver android:name="com.yzx.service.MsgBackReceiver" >
         </receiver>
-        
+        <receiver android:name="com.hfut.service.AlarmReceiver" >
+        </receiver>
         
         
         

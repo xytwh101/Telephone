@@ -117,40 +117,6 @@
                     android:background="@drawable/line_vertical" />
 
                 <LinearLayout
-                    android:id="@+id/ll_main_all_urgencyPhone"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:onClick="urgencyPhone"
-                    android:orientation="vertical" >
-
-                    <ImageView
-                        android:id="@+id/iv_main_all_urgencyPhone"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ability_video"
-                        android:clickable="false"
-                        android:focusable="false" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:gravity="center_vertical"
-                        android:text="@string/ability_main_urgencyPhone"
-                        android:textColor="#666666"
-                        android:textSize="22sp" />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal" >
-
-                <LinearLayout
                     android:id="@+id/ll_main_all_urgencyReport"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -178,107 +144,9 @@
                         android:textColor="#666666"
                         android:textSize="22sp" />
                 </LinearLayout>
-
-                <View
-                    android:layout_width="2dip"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/line_vertical" />
-
-                <LinearLayout
-                    android:id="@+id/ll_main_all_myDoctor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="myDoctor"
-                    android:gravity="center"
-                    android:orientation="vertical" >
-
-                    <ImageView
-                        android:id="@+id/iv_main_all_myDoctor"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ability_video"
-                        android:clickable="false"
-                        android:focusable="false" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:gravity="center_vertical"
-                        android:text="@string/ability_main_myDoctor"
-                        android:textColor="#666666"
-                        android:textSize="22sp" />
-                </LinearLayout>
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal" >
-
-                <LinearLayout
-                    android:id="@+id/ll_main_all_restTime"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="restTime"
-                    android:gravity="center"
-                    android:orientation="vertical" >
-
-                    <ImageView
-                        android:id="@+id/iv_main_all_restTime"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ability_verification"
-                        android:clickable="false"
-                        android:focusable="false" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:gravity="center_vertical"
-                        android:text="@string/ability_main_restTime"
-                        android:textColor="#666666"
-                        android:textSize="22sp" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="2dip"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/line_vertical" />
-
-                <LinearLayout
-                    android:id="@+id/ll_main_all_healthRecord"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:onClick="healthRecord"
-                    android:orientation="vertical" >
-
-                    <ImageView
-                        android:id="@+id/iv_main_all_healthRecord"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ability_video"
-                        android:clickable="false"
-                        android:focusable="false" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:gravity="center_vertical"
-                        android:text="@string/ability_main_healthRecord"
-                        android:textColor="#666666"
-                        android:textSize="22sp" />
-                </LinearLayout>
-            </LinearLayout>
+           
+            
              <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -318,17 +186,17 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/line_vertical" />
 
-                <LinearLayout
-                    android:id="@+id/ll_main_all_setting"
+                 <LinearLayout
+                    android:id="@+id/ll_main_all_healthRecord"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="setting"
                     android:gravity="center"
+                    android:onClick="healthRecord"
                     android:orientation="vertical" >
 
                     <ImageView
-                        android:id="@+id/iv_main_all_setting"
+                        android:id="@+id/iv_main_all_healthRecord"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ability_video"
@@ -341,7 +209,7 @@
                         android:clickable="false"
                         android:focusable="false"
                         android:gravity="center_vertical"
-                        android:text="@string/ability_main_setting"
+                        android:text="@string/ability_main_healthRecord"
                         android:textColor="#666666"
                         android:textSize="22sp" />
                 </LinearLayout>
@@ -386,15 +254,16 @@
                     android:background="@drawable/line_vertical" />
 
                 <LinearLayout
-                    android:id="@+id/ll_main_all_GPS"
+                    android:id="@+id/ll_main_all_setting"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:onClick="setting"
                     android:gravity="center"
                     android:orientation="vertical" >
 
                     <ImageView
-                        android:id="@+id/iv_main_all_GPS"
+                        android:id="@+id/iv_main_all_setting"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/ability_video"
@@ -407,7 +276,7 @@
                         android:clickable="false"
                         android:focusable="false"
                         android:gravity="center_vertical"
-                        android:text="@string/ability_main_GPS"
+                        android:text="@string/ability_main_setting"
                         android:textColor="#666666"
                         android:textSize="22sp" />
                 </LinearLayout>

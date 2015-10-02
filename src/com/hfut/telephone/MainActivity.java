@@ -32,19 +32,19 @@ public class MainActivity extends Activity {
 	    	setContentView(R.layout.activity_main_all);           	    	
 	    }
 	    if(a==2){
-	    	setContentView(R.layout.activity_main_all);           	    	
+	    	setContentView(R.layout.activity_main_chirld);           	    	
 	    }
 	    if(a==3){
-	    	setContentView(R.layout.activity_main_all);     	    	
+	    	setContentView(R.layout.activity_main_chirld);     	    	
 	    }
 	    if(a==4){
-	    	setContentView(R.layout.activity_main_all);   	    	
+	    	setContentView(R.layout.activity_main_parent);   	    	
 	    }
 	    if(a==5){
-	    	setContentView(R.layout.activity_main_all); 
+	    	setContentView(R.layout.activity_main_parent); 
 	    }
 	    if(a==6){
-	    	setContentView(R.layout.activity_main_all);
+	    	setContentView(R.layout.activity_main_doctor);
 	    }
 	    
 	    
@@ -107,6 +107,7 @@ public class MainActivity extends Activity {
 	}
 	//作息时间
 	public void restTime(View view){
+		
 		
 	}
 	//健康档案
