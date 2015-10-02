@@ -1,5 +1,6 @@
 package com.hfut.telephone;
 
+import com.hfut.deskclock.DeskClockMainActivity;
 import com.hfut.service.ConnectionService;
 import com.yzxdemo.action.UIDfineAction;
 
@@ -107,8 +108,8 @@ public class MainActivity extends Activity {
 	}
 	//作息时间
 	public void restTime(View view){
-		
-		
+		Intent intent = new Intent(MainActivity.this, DeskClockMainActivity.class);
+		startActivity(intent);
 	}
 	//健康档案
 	public void healthRecord(View view){

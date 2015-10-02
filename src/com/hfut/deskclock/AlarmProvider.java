@@ -39,8 +39,8 @@ public class AlarmProvider extends ContentProvider {
             UriMatcher.NO_MATCH);
 
     static {
-        sURLMatcher.addURI("com.cn.daming.deskclock", "alarm", ALARMS);
-        sURLMatcher.addURI("com.cn.daming.deskclock", "alarm/#", ALARMS_ID);
+        sURLMatcher.addURI("com.hfut.deskclock", "alarm", ALARMS);
+        sURLMatcher.addURI("com.hfut.deskclock", "alarm/#", ALARMS_ID);
     }
 
     private static class DatabaseHelper extends SQLiteOpenHelper {

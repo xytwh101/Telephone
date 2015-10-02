@@ -38,6 +38,14 @@
             </intent-filter>
         </activity>
         <!-- 闹钟  -->
+        <provider android:name="com.hfut.deskclock.AlarmProvider"
+                android:authorities="com.hfut.deskclock"
+                android:exported="false" />
+        <activity
+            android:name="com.hfut.deskclock.DeskClockMainActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" >
+        </activity>
         <activity android:name="com.hfut.deskclock.SetAlarm" android:label="@string/set_alarm"
                 android:configChanges="orientation|keyboardHidden|keyboard|navigation" />
         
